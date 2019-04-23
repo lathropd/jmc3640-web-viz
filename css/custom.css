@@ -1,0 +1,54 @@
+/*
+* Slidetrack CSS V1.0.0
+* Copyright 2019, Daniel Lathrop
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 1/1/2019
+*/
+
+
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- Import Skeleton framework
+- Override settings
+- Custom settings
+- Media queries
+*/
+
+/* My overrides of Skeleton styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* My custom styling
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+ footer {
+   text-align: center;
+   color: darkgrey;
+   margin-top: 10rem;
+   border-top: 0.5px lightslategray solid;
+ }
+
+ p + ul {
+   margin-top: -2.5rem;
+ }
+
+ .chart {
+   height: 400px;
+ }
+
+/* Media queires
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
