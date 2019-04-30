@@ -67,13 +67,13 @@
         yAxes: [
           {ticks: {
             min: 0,
-            callback: dl.format.number(",") // if it was a 3 you'd use dl.format.number("$,") 
+            callback: dl.format.number(",") // if it was a $ you'd use dl.format.number("$,") 
           }
         }
       ]},
       tooltips: {
         callbacks: {
-          label: (tooltipItem, data) => dl.format.number(",")(tooltipItem.yLabel) // if it was a 3 you'd use dl.format.number("$,")(tooltipItem.yLabel) 
+          label: (tooltipItem, data) => dl.format.number(",")(tooltipItem.yLabel) // if it was a $ you'd use dl.format.number("$,")(tooltipItem.yLabel) 
         }
       }
     }
@@ -117,13 +117,13 @@
       scales: {yAxes: [
         { ticks: {
             min: 0,
-            callback: dl.format.number(",") // if it was a 3 you'd use dl.format.number("$,") 
+            callback: dl.format.number(",") // if it was a $ you'd use dl.format.number("$,") 
           }
         }
       ]},
       tooltips: {
         callbacks: {
-          label: (tooltipItem, data) => dl.format.number(",")(tooltipItem.yLabel) // if it was a 3 you'd use dl.format.number("$,")(tooltipItem.yLabel) 
+          label: (tooltipItem, data) => dl.format.number(",")(tooltipItem.yLabel) // if it was a $ you'd use dl.format.number("$,")(tooltipItem.yLabel) 
         }
       }
     }
